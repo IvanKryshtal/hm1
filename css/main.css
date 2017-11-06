@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+a{
+	color: #00A3DF;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+body{
+	font-family: Tahoma, Arial, sans-sarif;
+	background-color: #7AAAB6;
+	font-size: 14px;
+}
+
+.wraper{
+	background-image: url(../img/background.jpg);
+	width: 1215px;
+	height: 1060px;
+	margin: auto;
+}
+
+.container{
+	width: 1175px;
+	margin: auto;
+	height: 1060px;
+}
+ 
+/* навигация */
+
+nav{
+	float: left;
+	width: 380px;
+	height: 36px;
+	margin-left: 454px;
+}
+
+ul{
+	height: 100%;
+}
+
+.menu li:nth-child(1){
+	width: 106px;
+	height: 100%;
+	margin-left: -5px;
+}
+
+.menu li:nth-child(2){
+	width: 76px;
+	height: 100%;
+	margin-left: -5px;
+}
+
+.activ{
+	background-color: #00ACDC;
+	color: #fff;
+}
+
+.menu li:nth-child(3){
+	width: 66px;
+	height: 100%;
+	margin-left: -5px;
+}
+
+.menu li:nth-child(4){
+	width: 76px;
+	height: 100%;
+	margin-left: -5px;
+}
+
+.menu li:nth-child(5){
+	width: 61px;
+	height: 100%;
+	margin-left: -5px;
+}
+
+li a{
+	text-align: center;
+	line-height: 32px;
+}
+
+li a:hover{
+	background-color: #00ACDC;
+	color: #fff;
+}
+
+/* ссылка с флагом */
+
+.left_span{
+	float: left;
+	margin-top: 2px;
+	margin-left: -2px;
+	height: 32px;
+	width: 150px;
+	border-left: 1px solid #00A3DF;
+}
+
+.left_span a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+a img{
+	margin: 4px 0px 0px 15px;
+}
+
+.left_span a span{
+	margin-top: 6px;
+    float: right;
+    margin-right: 10px;
+}
+
+/* ссылка с подчеркиванием */
+
+.right_span{
+	float: left;
+	width: 190px;
+	height: 34px;
+	border: 1px solid #009AD5;
+} 
+
+.right_span a{
+	background-color: #00ACDC;
+	background: linear-gradient(to bottom, #00B2DE, #007BC8);
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+/* Регистрация */
+
+.main{
+	position: relative;
+}
+
+.registr{
+	width: 560px;
+	height: 615px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	margin-top: 215px;
+	margin-left: 330px;
+}
+
+.container1{
+	height: 450px;
+	width: 275px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+/* Header регистрации */
+
+.header_main span{
+	display: block;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hr{
+	height: 2px;
+	background-color: #C5C8BA;
+	margin-bottom: 35px;
+}
+
+/* кнопка фейсбука */
+
+.facebook{
+	border: 0;
+	width: 275px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 4px;
+	text-align: center;
+	background: linear-gradient(to top, #18427B, #2F549C);
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.facebook img{
+	float: left;
+	border-right: 1px solid #003970;
+}
+
+.facebook div{
+	float: left;
+	border-left: 1px solid #3A68AC;
+	color: #fff;
+	height: 34px;
+	border-top: 1px solid #728BB9;
+	background: linear-gradient(to top, #18427B, #2F549C);
+	width: 235px;
+	border-radius: 0px 4px 4px 0px;
+}
+
+.facebook span{
+	line-height: 35px;
+}
+
+.facebook span:last-child{
+	margin-left: 20px;
+}
+
+.bolt{
+ 	font-weight: 600;
+}
+
+/* разделительная полоса */
+
+.before{
+	float: left;
+	width: 122px;
+	height: 1px;
+	background-color: #666666;
+	border-bottom: 1px solid #000;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.after{
+	float: left;
+	width: 122px;
+	height: 1px;
+	background-color: #666666;
+	border-bottom: 1px solid #000;
+	margin-top: 8px;
+	margin-left: 6px;
+}
+
+.ou{
+	color: #9A9A9A;
+	display: block;
+	text-align: center;
+	width: 20px;
+	height: 15px;
+	margin: auto;
+	float: left;
+	margin-bottom: 30px;
+}
+
+/* input */
+
+.input{
+	display: block;
+	width: 100%;
+	height: 35px;
+	background-color: #000;
+	border: 0;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #666;
+	text-indent: 20px;
+	color: #fff;
+}
+
+.input:focus{
+	background-color: #00518B;
+	-webkit-box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+	-moz-box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+	box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+}
+
+.input:hover{
+	background-color: #00518B;
+	-webkit-box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+	-moz-box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+	box-shadow: 1px 1px 24px 2px rgba(0,81,139,1);
+}
+
+.input::-webkit-input-placeholder{
+	color: #fff;
+}
+
+/* checkbox */
+
+.checkbox{
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    cursor: pointer;
+}
+input {
+    width: 13px;
+    height: 13px;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* нижняя кнопка */
+
+.account{
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 35px;
+	color: #fff;
+	border: 0;
+	-webkit-box-shadow: 1px 1px 15px 0px rgba(0,81,139,1);
+	-moz-box-shadow: 1px 1px 15px 0px rgba(0,81,139,1);
+	box-shadow: 1px 1px 15px 0px rgba(0,81,139,1);
+	background: linear-gradient(to top, #007BC8, #00ABDC);
+	cursor: pointer;
+}
+
+
+/* footer */
+
+footer{
+	color: #fff;
+	font-size: 11px;
+	padding-left: 125px;
+	padding-right: 125px;
+}
+
+p{
+	text-align: center;
+}
